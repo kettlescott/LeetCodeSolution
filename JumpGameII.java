@@ -2,17 +2,7 @@ package com.scott.leetcode;
 
 public class JumpGameII {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		JumpGameII g = new JumpGameII ();
-		int [] data = {2, 3, 1, 1, 4} ;
-		int min = g.jump(data);
-		System.out.println(min);
-	}
-
+	
     public int jump(int[] A) {
         int [] dp = new int [A.length] ;
         dp[0] = 0 ;
