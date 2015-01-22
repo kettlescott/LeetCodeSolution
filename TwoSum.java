@@ -4,15 +4,7 @@ import java.util.HashMap;
 
 public class TwoSum {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		TwoSum t = new TwoSum ();
-		int [] data = {1 ,2 ,3} ;
-		t.dumpResult(t.twoSum(data, 3)) ;		
-	}
+
 	
 	public int [] twoSum_Brute_force (int [] numbers,  int target) {
 		for (int i = 0 ; i < numbers.length ; ++i) {			 
