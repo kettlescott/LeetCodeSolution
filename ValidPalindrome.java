@@ -2,14 +2,6 @@ package com.scott.leetcode;
 
 public class ValidPalindrome {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ValidPalindrome v = new ValidPalindrome ();
-		System.out.println(v.isPalindrome("a."));
-	}
 	
     public boolean isPalindrome(String s) {
         int i = 0 , j = s.length() - 1 ;
