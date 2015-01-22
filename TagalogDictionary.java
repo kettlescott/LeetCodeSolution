@@ -122,17 +122,7 @@ public class TagalogDictionary {
     	
     }
 	
-	
-	public static void main(String[] args) {
-      String [] wordList ={"abakada","alpabet","tagalog","ako"}
-;
 
-      TagalogDictionary t =new TagalogDictionary();
-      t.sortWords(wordList);
-
-	}
-	
-	
 	
 	
 	
