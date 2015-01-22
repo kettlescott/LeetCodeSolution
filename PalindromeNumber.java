@@ -2,15 +2,7 @@ package com.scott.leetcode;
 
 public class PalindromeNumber {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		PalindromeNumber p = new PalindromeNumber ();
-	    System.out.println(p.isPalindrome(-1));
-	}
-	
+
     public boolean isPalindrome(int x) {
     	if (x < 0) return false ;
         int divider = 1 ;
