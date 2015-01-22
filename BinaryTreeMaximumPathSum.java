@@ -2,18 +2,8 @@ package com.scott.leetcode;
 
 public class BinaryTreeMaximumPathSum {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		BinaryTreeMaximumPathSum t = new BinaryTreeMaximumPathSum ();
-		String [] data = {"1","2","3"} ;
-		TreeNode root = LeetCodeTree.createTree(data) ;
-		System.out.println(t.maxPathSum(root));
-	}
 
-	int max = Integer.MIN_VALUE ;
+    int max = Integer.MIN_VALUE ;
 	
     public int maxPathSum(TreeNode root) {
     	if (root == null) return 0 ;
