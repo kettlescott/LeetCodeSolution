@@ -2,17 +2,7 @@ package com.scott.leetcode;
 
 public class SumCombination {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-  
-		
-		SumCombination.findCombinationCount(2, new int [] {1,2,2,3,4,5});
-	}
-	
-	
+
 	/**
 	 * C={1,2,2,3,4,5} 
        Sum=5 
@@ -31,8 +21,6 @@ public class SumCombination {
 				dp[j] += dp[j - array[i]];
 			}
 		}
-		
-		System.out.println(dp[sum]);
 	}
 
 }
