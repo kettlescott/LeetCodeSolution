@@ -9,24 +9,7 @@ import static java.nio.file.Files.readAllBytes;
 import static java.nio.file.Paths.get;
 public class MinimumWindowSubstring {
 
-	/**
-	 * @param args
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		MinimumWindowSubstring m = new MinimumWindowSubstring ();
-		byte [] by = readAllBytes(get("c://input.txt")) ;
-		String input = new String(by);
-		String output = new String(readAllBytes(get("c://target.txt")));
-//		System.out.println(output.length());
-		char [] chs = m.minWindow("ADOBECODEBANC","ABC").toCharArray();
-		
-		System.out.println(m.checkPattern("xyzxyzxyz", "xyz"));
-		
-		
-	}
-	
+
 	public void findAll (int [] A , int [] B){
 		HashMap<Integer,Integer> map = new HashMap<> ();
 		for (int i = 0 ; i < A.length ; ++i) {
