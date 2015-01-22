@@ -2,16 +2,6 @@ package com.scott.leetcode;
 
 public class UniquePaths {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		UniquePaths p = new UniquePaths ();
-		System.out.println(p.uniquePaths(23, 12));
-		System.out.println(p.uniquePaths_II(23, 12));
-		
-	}
 
 	 public int uniquePaths(int m, int n) {
 	    int [][] dp = new int [m] [n];       
