@@ -7,13 +7,7 @@ import com.scott.leetcode.MaximumDepthofBinaryTree.TreeNode;
 
 public class MinimumDepthofBinaryTree {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 	
 	 public int minDepth(TreeNode root) {
 	   if (root == null) return 0 ;       
@@ -44,12 +38,4 @@ public class MinimumDepthofBinaryTree {
 		 return depth ;
 	 }
 	 
-	 
-	 static class TreeNode {
-		   int val;
-		   TreeNode left;
-		   TreeNode right;
-		   TreeNode(int x) { val = x; }
-	   }
-
 }
