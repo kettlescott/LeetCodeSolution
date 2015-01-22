@@ -4,33 +4,8 @@ import java.util.Iterator;
 
 public class WordFind {
 
-	
-	public static void main(String[] args) {
-           String [] grid ={"EASYTOFINDEAGSRVHOTCJYG",
-        		            "FLVENKDHCESOXXXXFAGJKEO",
-        		            "YHEDYNAIRQGIZECGXQLKDBI",
-        		            "DEIJFKABAQSIHSNDLOMYJIN",
-        		            "CKXINIMMNGRNSNRGIWQLWOG",
-        		            "VOFQDROQGCWDKOUYRAFUCDO",
-        		            "PFLXWTYKOITSURQJGEGSPGG"};	
 
-           String [] wordList ={"GOING"};
-           WordFind find = new WordFind();
-           String [] coordinator = find.findWords(grid, wordList);
-           System.out.print("{");
-           for (String coor : coordinator){
-        	   if ("".equals(coor)){
-        		   System.out.print("\""+" "+"\""+",");
-        	   }else{
-        		   System.out.print("\"" +coor+"\""+",");
-        	   }        	   
-           }
-           System.out.print("}");
-           System.out.println();
 
-	}
-	
-	
 	public String [] findWords(String [] grid, String [] wordList){
 		Trie t = new Trie();
 		int numOfRow = grid.length;
