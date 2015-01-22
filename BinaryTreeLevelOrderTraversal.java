@@ -8,22 +8,7 @@ import java.util.Stack;
 
 public class BinaryTreeLevelOrderTraversal {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		BinaryTreeLevelOrderTraversal t = new BinaryTreeLevelOrderTraversal ();
-		String [] data = {"1","2","3","4","5"} ;
-		TreeNode root = LeetCodeTree.createTree(data) ;
-		for (List<Integer> l : t.levelOrder(root) ) {
-			for (int c : l) {
-				System.out.print(c + " ");
-			}
-			System.out.println();
-		}
-		
-	}
+
 		 
 	 public List<List<Integer>> levelOrder(TreeNode root) {
 	        List<List<Integer>> result = new ArrayList<List<Integer>> ();	        
