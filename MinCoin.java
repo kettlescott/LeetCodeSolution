@@ -2,18 +2,7 @@ package com.scott.leetcode;
 
 public class MinCoin {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		MinCoin m = new MinCoin ();
-		int [] coins = {1 , 2 ,5 , 10 , 20 ,50 , 100} ;
-		int count = m.minCoin(100, coins) ;
-		int count_recursive = m.minCoinRec(100, coins, 1) ;
-		System.out.println(count);
-		System.out.println(count_recursive);
-	}
+	
 	
 	public int minCoin (int total , int [] coins){
 		int [] dp = new int [total+ 1];
