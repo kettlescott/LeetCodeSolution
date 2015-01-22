@@ -7,13 +7,6 @@ import java.util.Stack;
 
 public class BinaryTreeInorderTraversal {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 	
 	public List<Integer> inorderTraversal(TreeNode root) {
 		List <Integer> result = new ArrayList<> ();
