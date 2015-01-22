@@ -6,15 +6,6 @@ import java.util.Stack;
 
 public class ValidParentheses {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ValidParentheses v = new ValidParentheses ();
-		boolean flag = v.isValid(")}") ;
-		System.out.println(flag);
-	}
 	
 	Map<Character , Character> BRACKET = new HashMap<Character , Character>() {{
 	    put('(',    ')');
