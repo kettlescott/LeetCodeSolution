@@ -5,16 +5,6 @@ import java.util.Stack;
 
 public class ValidateBST {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ValidateBST v = new ValidateBST ();
-		String [] data = {"1" ,"#" , "1"} ;
-		TreeNode root = LeetCodeTree.createTree(data) ;
-		System.out.println(v.isValidBST_iter(root));
-	}
 	
 	
 	
