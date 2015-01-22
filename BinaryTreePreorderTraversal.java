@@ -6,14 +6,7 @@ import java.util.Stack;
 
 public class BinaryTreePreorderTraversal {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
-	
 	 public List<Integer> preorderTraversal(TreeNode root) {
 	        List<Integer> result = new ArrayList<Integer> ();
 	        Stack<TreeNode> stack = new Stack<TreeNode> ();
