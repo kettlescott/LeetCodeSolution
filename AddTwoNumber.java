@@ -4,13 +4,7 @@ import com.scott.leetcode.MergeTwoSortedLists.ListNode;
 
 public class AddTwoNumber {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 	
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carrier = 0 ;
