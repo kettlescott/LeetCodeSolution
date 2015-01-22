@@ -18,7 +18,7 @@ public class BSearchTreeToDList {
 	 public void connect (TreeNode t){
 		if (t == null) return ;
 		if (t.left == null && head == null) head = t ;
-	    connect (t.left);
+	        connect (t.left);
 		if (pre != null) {			
 			pre.next = t ;
 			t.previous = pre ;
