@@ -2,16 +2,6 @@ package com.scott.leetcode;
 
 public class StringtoInteger {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		StringtoInteger t = new StringtoInteger ();
-		System.out.println(t.atoi("2147483648"));
-		                           
-	}
-
     public int atoi(String str) {
         int i = 0 ,sum = 0;
         while (i < str.length() && str.charAt(i) == ' ') ++i;
