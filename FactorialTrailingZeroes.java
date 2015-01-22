@@ -2,14 +2,7 @@ package com.scott.leetcode;
 
 public class FactorialTrailingZeroes {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		FactorialTrailingZeroes t = new FactorialTrailingZeroes ();
-		System.out.println(t.trailingZeroes(11));
-	}
+
 	
     public int trailingZeroes(int n) {
     	if (n == 0) return 0 ;    	
