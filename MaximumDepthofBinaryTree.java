@@ -1,10 +1,10 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.scott.code.ValidateBinarySearchTree.TreeNode;
+import com.scott.leetcode.ValidateBinarySearchTree.TreeNode;
 
 public class MaximumDepthofBinaryTree {
 

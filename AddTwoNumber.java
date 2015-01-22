@@ -1,6 +1,6 @@
-package com.scott.code;
+package com.scott.leetcode;
 
-import com.scott.code.MergeTwoSortedLists.ListNode;
+import com.scott.leetcode.MergeTwoSortedLists.ListNode;
 
 public class AddTwoNumber {
 

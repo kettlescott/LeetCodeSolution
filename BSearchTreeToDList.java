@@ -1,10 +1,10 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 import java.util.HashMap;
 
 import java.util.Stack;
 
-import com.scott.code.MinimumDepthofBinaryTree.TreeNode;
+import com.scott.leetcode.MinimumDepthofBinaryTree.TreeNode;
 
 public class BSearchTreeToDList {
 

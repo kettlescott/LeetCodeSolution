@@ -1,11 +1,11 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.scott.code.MergeTwoSortedLists.ListNode;
+import com.scott.leetcode.MergeTwoSortedLists.ListNode;
 
 public class SwapNodesinPair {
 

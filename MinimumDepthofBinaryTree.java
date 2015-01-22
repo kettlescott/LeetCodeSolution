@@ -1,9 +1,9 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.scott.code.MaximumDepthofBinaryTree.TreeNode;
+import com.scott.leetcode.MaximumDepthofBinaryTree.TreeNode;
 
 public class MinimumDepthofBinaryTree {
 

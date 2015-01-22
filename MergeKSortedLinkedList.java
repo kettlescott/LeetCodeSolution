@@ -1,11 +1,11 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import com.scott.code.MergeTwoSortedLists.ListNode;
+import com.scott.leetcode.MergeTwoSortedLists.ListNode;
 
 public class MergeKSortedLinkedList {
 

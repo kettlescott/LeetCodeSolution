@@ -1,4 +1,4 @@
-package com.scott.code;
+package com.scott.leetcode;
 
 public class SearchInsertPosition {
 
