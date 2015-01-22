@@ -4,19 +4,7 @@ import java.util.Stack;
 
 public class SameTree {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		SameTree t = new SameTree ();
-		String [] p = { "1" ,"2"} ;
-		String [] q = { "1" ,"#","2"} ;
-		TreeNode r_p = LeetCodeTree.createTree(p) ;
-		TreeNode r_q = LeetCodeTree.createTree(q) ;
-		System.out.println(t.isSameTree_rec(r_p, r_q));
-		
-	}
+
 	
 	 public boolean isSameTree(TreeNode p, TreeNode q) {
 	     Stack<TreeNode> stack_p = new Stack <> ();       
