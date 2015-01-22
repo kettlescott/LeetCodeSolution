@@ -2,16 +2,7 @@ package com.scott.leetcode;
 
 public class BinaryTreeUpsideDown {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		BinaryTreeUpsideDown t = new BinaryTreeUpsideDown ();
-		
-		
 
-	}
-	
 	 public TreeNode UpsideDownBinaryTree(TreeNode root) {
 	        return 	 doUpsideDown (root,null);   	 
 	 }
