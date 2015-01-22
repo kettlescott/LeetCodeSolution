@@ -4,14 +4,7 @@ import java.util.HashMap;
 
 public class RomantoInteger {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		RomantoInteger r = new RomantoInteger ();
-		System.out.println(r.romanToInt("IV"));
-	}
+
 	
 	public int romanToInt(String s) {
 		  HashMap<Character, Integer> map = new HashMap<Character,Integer> ();
