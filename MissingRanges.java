@@ -5,16 +5,7 @@ import java.util.List;
 
 public class MissingRanges {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
-	
-	
-	
 	  public List<String> findMissingRanges(int[] A, int lower, int upper) {
           int start = lower - 1;
           List<String> result = new ArrayList<> ();
