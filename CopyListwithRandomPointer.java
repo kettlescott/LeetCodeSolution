@@ -4,15 +4,7 @@ import java.util.HashMap;
 
 public class CopyListwithRandomPointer {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
-	
-	
 	 public RandomListNode copyRandomList(RandomListNode head) {
 		 if (head == null) return null ;
 		 RandomListNode dummy = new RandomListNode (-1);
