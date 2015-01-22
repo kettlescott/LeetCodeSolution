@@ -4,19 +4,6 @@ import java.util.Stack;
 
 public class SymmetricTree {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-      String [] data = {"1","2","2","#","4","4","#"};
-      TreeNode root = LeetCodeTree.createTree(data) ;
-      SymmetricTree t = new SymmetricTree ();
-      System.out.println(t.isSymmetric_iter(root));
-	}
-	
-	
-	
     public boolean isSymmetric(TreeNode root) {      
     	if (root == null) return true ;
        return doCompare (root.left,root.right) ;
