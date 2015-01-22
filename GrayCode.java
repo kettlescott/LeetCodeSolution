@@ -4,17 +4,6 @@ import java.util.List;
 
 public class GrayCode {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		GrayCode g = new GrayCode();
-//		g.grayCode(2);
-		System.out.println(g.lengthOfLongestSubstring("wlrbbmqbhcdarzowkkyhiddqscdxrjmowfrxsjybldbefsarcbynecdyggxxpklorellnmpapqfwkhopkmco"));
-
-	}
 	
 	
      public int lengthOfLongestSubstring(String s) {
