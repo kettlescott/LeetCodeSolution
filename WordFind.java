@@ -39,20 +39,13 @@ public class WordFind {
 			  down.setLength(0);  
 		  }		
 		}
-		
 		String [] coordinator = new String [wordList.length];
-		
 		int i = 0 ;
 		while (i<wordList.length){
 			coordinator[i] = t.find(wordList[i]);
 			i++;
 		}
-		
 		Iterator<String> it = t.keys().iterator();
-		while (it.hasNext()){
-			System.out.println(it.next());
-		}
- 				
 		return coordinator;
 	}
 
