@@ -2,15 +2,7 @@ package com.scott.leetcode;
 
 public class PopulatingNextRightPointersinEachNode {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
-	
-	
 	
     public void connect(TreeLinkNode root) {
     	if (root == null) return ;
