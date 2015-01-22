@@ -4,13 +4,7 @@ import java.util.Stack;
 
 public class FlattenBinaryTreetoLinkedList {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 
 	
     public TreeNode flatten(TreeNode root) {
