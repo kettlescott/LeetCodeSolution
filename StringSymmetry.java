@@ -2,14 +2,6 @@ package com.scott.leetcode;
 
 public class StringSymmetry {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		StringSymmetry s = new StringSymmetry ();
-		System.out.println(s.solution("a"));
-	}
 	
 	
 	 public int solution(String S) {
