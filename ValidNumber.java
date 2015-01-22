@@ -2,15 +2,6 @@ package com.scott.leetcode;
 
 public class ValidNumber {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ValidNumber n = new ValidNumber ();
-		System.out.println(n.isNumber("005047e+6"));
-	}
-	
     public boolean isNumber(String s) {
         int i = 0;
         while (i < s.length() && s.charAt(i) == ' ') ++i;
