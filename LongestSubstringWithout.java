@@ -6,13 +6,7 @@ import java.util.HashSet;
 
 public class LongestSubstringWithout {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
    
 	public int lengthOfLongestSubstring(String s) {
       int maxLen = 0 , rear = 0 ;
