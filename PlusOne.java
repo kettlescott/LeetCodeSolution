@@ -2,17 +2,7 @@ package com.scott.leetcode;
 
 public class PlusOne {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		PlusOne p = new PlusOne ();
-        int [] data = {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,1};
-        for (int c : p.plusOne(data)) 
-        	System.out.print(c);
-        
-	}
+
 	
 	
 	 public int[] plusOne(int[] digits) {
