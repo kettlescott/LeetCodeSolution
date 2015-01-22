@@ -2,13 +2,6 @@ package com.scott.leetcode;
 
 public class TwoSumII {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 	
 	public int[] twoSum(int[] numbers, int target){
