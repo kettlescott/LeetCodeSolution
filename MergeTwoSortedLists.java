@@ -2,13 +2,7 @@ package com.scott.leetcode;
 
 public class MergeTwoSortedLists {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 	
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     	ListNode dummyHead = new ListNode (-1);
