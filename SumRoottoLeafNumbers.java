@@ -4,19 +4,7 @@ import java.util.Stack;
 
 public class SumRoottoLeafNumbers {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		TreeNode n1 = new TreeNode (1);
-		TreeNode n2 = new TreeNode (2);
-		TreeNode n3 = new TreeNode (3);
-		n1.left = n2 ;
-		n1.right = n3;
-		SumRoottoLeafNumbers n = new SumRoottoLeafNumbers ();
-		System.out.println(n.sumNumbers_iter(n1));
-	}
+	
 	
     public int sumNumbers(TreeNode root) {                	
     	return cal (root,0); 
