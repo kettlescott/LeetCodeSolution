@@ -5,23 +5,7 @@ import java.util.List;
 
 public class ReverseWordII {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ReverseWordII r = new ReverseWordII ();
-		char [] chs = "the sky is blue".toCharArray() ;
-		r.reverseWords(chs);
-//		System.out.println(new String(chs));
-		System.out.println(r.reverseWords_twoPass("the sky is blue"));
-		int [] data = {0, 1, 2, 3, 4, 5, 6};
-		r.rotate(data, 3);
-		for (int c : data) {
-			System.out.print(c + " ");
-		}
-		System.out.println();
-	}
+
 	
 	public void rotate (int[] A, int k){		
 		 k = k % (A.length - 1);		 
