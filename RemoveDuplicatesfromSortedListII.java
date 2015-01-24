@@ -8,7 +8,7 @@ Given 1->1->1->2->3, return 2->3.
 	 */
 
 	 public ListNode deleteDuplicates(ListNode head) {
-		if (head == null) return null ;
+	    if (head == null) return null ;
 	    ListNode dummyHead = new ListNode (1);	    
 	    ListNode tail = dummyHead , p = head.next , pre = null ;
 	    dummyHead.next = head ;
