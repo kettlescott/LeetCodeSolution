@@ -17,15 +17,15 @@ there is at least one representation of N as 4 or less squares.
  /*
    recursive call 
  */
-	public int find (double d, int count){
-		if (d == 0) return count ;
-		if (d < 0) return 0 ; ;		
-		int min = Integer.MAX_VALUE;
-		for (int i = 1 ; i <= Math.sqrt(d) ;++i) {
+	public int find (double d){
+		if (d == 0) return 0 ;
+		int min = Integer.MAX_VALUE ;
+		int count = 0 ;
+		for (int i = 1 ; i <= Math.sqrt(d) ; ++i) {
 			if (d >= Math.pow(i, 2)) {
-				int c = find (d - Math.pow(i, 2), count +  1);
-				min = Math.min(c, min) ;
-			}						
+				count = 1 + find (d - Math.pow(i, 2));
+				min =  Math.min(count, min) ;
+			}
 		}
 		return min ;
 	}
@@ -34,7 +34,6 @@ there is at least one representation of N as 4 or less squares.
 	  dp
 	*/
 	public int find_dp (int n){
-		if (n == 0) return 1 ;
 		int [] dp = new int [n + 1] ;
 		double bound = Math.sqrt(n) ;
 		dp[0] = 0 ;
