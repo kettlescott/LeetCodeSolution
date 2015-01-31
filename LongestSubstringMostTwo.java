@@ -3,13 +3,13 @@ package com.scott.leetcode;
 public class LongestSubstringMostTwo {
 
 	/**
-	 * @param args
+	 * Given a string, find the length of the longest substring T that contains at most 2 distinct characters.
+
+For example, Given s = “eceba”,
+
+T is "ece" which its length is 3. 
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		LongestSubstringMostTwo m = new LongestSubstringMostTwo ();
-		System.out.println(m.lengthOfLongestSubstringTwoDistinct_two_pointer("qqqaaaac"));
-	}
+	
 	
 	 public int lengthOfLongestSubstringTwoDistinct(String s) {
 		 int [] count = new int[256];
@@ -40,5 +40,24 @@ public class LongestSubstringMostTwo {
 		 }
 		 return Math.max(maxLen, s.length() - rear);
 	 }
+	 
+	 public int lengthOfLongestSubstringTwoDistinct_aother_twopointer(String s) {
+	        int maxLen = 0 , move = -1 , tail = 0;
+	        int i = 0 ;
+	        for (; i < s.length() ; ++i) {
+	        	char cur = s.charAt(i);
+	        	if (cur == s.charAt(tail)|| move != -1 && cur == s.charAt(move)) continue;
+	        	if (move != -1 && cur != s.charAt(move) && cur != s.charAt(tail)) {        		
+	        		maxLen = Math.max(maxLen, i - tail) ;        			
+	        		int backward = i - 1 ;
+	        		while (s.charAt(backward) == s.charAt(i - 1)) backward--;
+        			tail = backward + 1;     	                			
+	        		move = i ;
+	        	}	        	
+	        	move = i ;	        	
+	        }       	        
+	        maxLen = Math.max(maxLen, s.length() - tail);
+	        return maxLen ;
+	    }
 	 
 }
