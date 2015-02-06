@@ -35,5 +35,34 @@ public class RemoveNthNodeFromEndofList {
       map.get(target -1).next = map.get(target + 1);
       return dummyHead.next ;    
     }
+    
+    	/*
+	 * idea , let p (from head) to move n steps;
+	 * then let q move from head and p continues to move until p = null
+	 * when p reaches the end of the list , the distance between p and q should be n;
+	 */
+    public ListNode removeNthFromEnd_withoutmemory(ListNode head, int n) {
+    	if (head == null) {
+    		return null ;
+    	}
+    	
+        int count = 1;
+        ListNode dummyHead = new ListNode (1);
+        dummyHead.next = head ;
+        ListNode pre = dummyHead ;
+        ListNode p = head;
+        while (count <= n) {
+        	p = p.next ;
+        	count++;
+        }
+        ListNode q = head ;
+        while (p != null) {
+        	p = p.next ;
+        	q = q.next ;
+        	pre = pre.next ;
+        }        
+        pre.next = q.next ;    	
+    	return dummyHead.next ;
+    }
 
 }
